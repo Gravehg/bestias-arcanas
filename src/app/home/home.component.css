@@ -1,0 +1,48 @@
+.background-image {
+  padding: 5%;
+  background-color: #1d1d1b;
+  flex: 1;
+}
+
+.pop-out-image {
+  margin: 0; /* Remove any margin around the image */
+  box-sizing: border-box; /* Ensures the border is included in the element's total size */
+  transition: transform 0.4s ease-out, box-shadow 0.4s ease-out,
+    border 0.4s ease-out; /* Add border to the transition */
+}
+
+.pop-out-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0);
+  border: 5px solid transparent; /* Initial transparent border */
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    270deg,
+    #ffcc00,
+    #d11f1f,
+    #ffcc00,
+    #d11f1f
+  ); /* Gradient border on hover */
+  animation: animate-border 3s linear infinite; /* Start the border animation on hover */
+}
+
+@keyframes animate-border {
+  0% {
+    border-image-source: linear-gradient(
+      270deg,
+      #8f7612,
+      #d1251f,
+      #26016b,
+      #2314af
+    );
+  }
+  100% {
+    border-image-source: linear-gradient(
+      630deg,
+      #2314af,
+      #26016b,
+      #d11f1f,
+      #ffcc00
+    );
+  }
+}

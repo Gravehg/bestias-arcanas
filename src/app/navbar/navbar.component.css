@@ -6,20 +6,20 @@
 .my-navbar .nav-link {
   color: white !important; /* Change text color to white */
   font-size: x-large;
-  transition: color 0.3 ease, transform 0.3s ease;
+  transition: color 0.4s ease, transform 0.4s ease;
 }
 
 .my-navbar .navbar-brand {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .my-navbar .navbar-brand:hover {
-  color: #ffcc00 !important;
+  color: #1d1d1b !important;
   transform: scale(1.1);
 }
 
 .my-navbar .nav-link:hover {
-  color: #ffcc00 !important;
+  color: #1d1d1b !important;
   transform: scale(1.1);
 }
 
@@ -31,8 +31,10 @@
     0.5
   ) !important; /* Optional: A lighter shade for disabled links */
 }
-
+.navbar-nav .nav-link {
+  margin-left: 10px;
+}
 .my-div {
   padding-bottom: 0.5%;
-  background-color: #bd0404;
+  background-color: #8a2121;
 }
