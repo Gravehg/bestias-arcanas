@@ -1,0 +1,21 @@
+.d-flex {
+  background-color: #1d1d1b;
+}
+
+.card {
+  background-color: #d1251f;
+}
+
+.container-fluid {
+  background-color: white;
+  border-radius: 2%;
+}
+
+.text {
+  color: white;
+}
+
+.image-fluid {
+  max-width: 50%;
+  min-width: 50%;
+}
