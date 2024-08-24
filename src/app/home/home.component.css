@@ -13,7 +13,7 @@
 
 .pop-out-image:hover {
   transform: scale(1.1);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0);
+  box-shadow: 2px rgba(0, 0, 0, 0);
   border: 5px solid transparent; /* Initial transparent border */
   border-image-slice: 1;
   border-image-source: linear-gradient(
