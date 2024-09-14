@@ -15,11 +15,13 @@
 
 .my-navbar .navbar-brand:hover {
   color: #1d1d1b !important;
+  font-weight: bold;
   transform: scale(1.1);
 }
 
 .my-navbar .nav-link:hover {
   color: #1d1d1b !important;
+  font-weight: bold;
   transform: scale(1.1);
 }
 

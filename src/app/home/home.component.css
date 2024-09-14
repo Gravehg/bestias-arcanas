@@ -1,7 +1,33 @@
 .background-image {
   padding: 5%;
   background-color: #1d1d1b;
-  flex: 1;
+}
+
+.enhanced-text {
+  color: #d11f1f;
+}
+
+h1 {
+  font-size: 10rem;
+}
+
+p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+main,
+section {
+  background-color: #1d1d1b;
 }
 
 .pop-out-image {
