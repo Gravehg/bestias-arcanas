@@ -1,1 +1,42 @@
-<p>book works!</p>
+<section class="d-flex p-4 justify-content-center align-items-center">
+  <div class="container-fluid p-4 w-100 overflow-hidden">
+    <div class="row gy-4 justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <div
+          class="card p-4 d-flex justify-content-center"
+          [style]="{ 'background-color': book.color }"
+        >
+          <img [src]="book.imgURL" class="image-fluid h-25 w-auto" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section
+  class="d-flex p-4 justify-content-center align-items-center book-name mt-4"
+>
+  <h1 class="d-flex justify-content-center align-items-center flex-column">
+    <span class="sub-heading-one"
+      ><strong>{{ book.name }}</strong></span
+    >
+  </h1>
+</section>
+
+<section
+  class="d-flex p-4 justify-content-center align-items-center flex-column"
+>
+  <h2 class="p-4">{{ book.summary }}</h2>
+  <p class="p-4 mt-2">
+    {{ book.fullDescription }}
+  </p>
+</section>
+
+<section
+  class="d-flex p-4 justify-content-center align-items-center flex-column"
+  [style]="{ 'background-color': book.color }"
+>
+  <h2 class="p-4">Consíguelo ya! Comunícate con nosotros</h2>
+  <p class="p-2">Celular: 7160-5774</p>
+  <p class="p-2">Correo electrónico: jbazkervyl&#64;gmail.com</p>
+</section>

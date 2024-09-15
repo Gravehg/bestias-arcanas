@@ -7,6 +7,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { FallbackComponent } from './fallback/fallback.component';
 import { SocialNetworksComponent } from './social-networks/social-networks.component';
 import { CharacterComponent } from './character/character.component';
+import { BookComponent } from './book/book.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -15,7 +16,7 @@ export const routes: Routes = [
   { path: 'character/:id', component: CharacterComponent },
   { path: 'author', component: AuthorComponent },
   { path: 'books', component: BooksComponent },
-  { path: 'book/:id', component: FallbackComponent },
+  { path: 'book/:id', component: BookComponent },
   { path: 'social-networks', component: SocialNetworksComponent },
   { path: '**', component: NotFoundComponent },
 ];

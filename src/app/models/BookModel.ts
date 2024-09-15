@@ -4,4 +4,5 @@ export interface BookModel {
   summary: string;
   imgURL: string;
   fullDescription: string;
+  color: string;
 }
