@@ -14,7 +14,8 @@ export const routes: Routes = [
   { path: 'characters', component: CharactersComponent },
   { path: 'character/:id', component: CharacterComponent },
   { path: 'author', component: AuthorComponent },
-  { path: 'books', component: FallbackComponent },
+  { path: 'books', component: BooksComponent },
+  { path: 'book/:id', component: FallbackComponent },
   { path: 'social-networks', component: SocialNetworksComponent },
   { path: '**', component: NotFoundComponent },
 ];

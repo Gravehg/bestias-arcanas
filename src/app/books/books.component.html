@@ -1,1 +1,20 @@
-<p>books works!</p>
+<section class="d-flex p-4 justify-content-center align-items-center">
+  <h1 class="d-flex justify-content-center align-items-center flex-column">
+    <span class="sub-heading-one"><strong>Consígue</strong> tus</span>
+    <span class="enhanced-text">Libros</span>
+  </h1>
+</section>
+
+<section class="container-fluid p-4 w-100 overflow-hidden">
+  <div class="row gy-4 gx-4 p-4">
+    @for(book of books; track book.id){
+    <app-book-card
+      class="col-md-4 col-lg-4"
+      [name]="book.name"
+      [id]="book.id"
+      [imgURL]="book.imgURL"
+      [summary]="book.summary"
+    ></app-book-card>
+    }
+  </div>
+</section>
