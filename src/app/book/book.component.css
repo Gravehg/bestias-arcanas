@@ -24,3 +24,9 @@ h2 {
   font-size: 2vw;
   color: white;
 }
+
+.btn-primary {
+  background-color: #1d1d1b;
+  border: none;
+  width: 25%;
+}
