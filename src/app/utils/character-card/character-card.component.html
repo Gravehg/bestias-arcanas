@@ -1,1 +1,12 @@
-<p>character-card works!</p>
+<article class="card h-100 shadow">
+  <img [src]="imgURL" class="card-img-top" [alt]="characterName" />
+  <div class="card-body d-flex flex-column">
+    <h5 class="card-title">{{ characterName }}</h5>
+    <p class="card-text">
+      {{ summary }}
+    </p>
+    <div class="mt-auto">
+      <a href="#" class="btn btn-primary">Conocer más</a>
+    </div>
+  </div>
+</article>

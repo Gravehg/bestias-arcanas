@@ -1,0 +1,30 @@
+.d-flex {
+  background-color: #1d1d1b;
+}
+
+.section,
+.row {
+  background-color: #1d1d1b;
+}
+
+.card {
+  background-color: #1d1d1b;
+}
+
+.card-text {
+  background-color: #d1251f;
+}
+
+.container-fluid {
+  background-color: #1d1d1b;
+  border-radius: 2%;
+}
+
+.text {
+  color: white;
+}
+
+.btn-primary {
+  background-color: #1d1d1b;
+  border: none;
+}

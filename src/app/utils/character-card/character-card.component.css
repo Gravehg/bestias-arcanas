@@ -1,0 +1,28 @@
+.card-body {
+  background-color: #d11f1f;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.4s ease-out;
+  --bs-card-bg: transparent;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.card-text {
+  color: white;
+}
+
+.card-title {
+  color: white;
+}
+
+.btn-primary {
+  background-color: #1d1d1b;
+  border: none;
+}

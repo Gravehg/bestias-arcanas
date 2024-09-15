@@ -5,12 +5,14 @@ import { AuthorComponent } from './author/author.component';
 import { BooksComponent } from './books/books.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { FallbackComponent } from './fallback/fallback.component';
+import { SocialNetworksComponent } from './social-networks/social-networks.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'characters', component: FallbackComponent },
+  { path: 'characters', component: CharactersComponent },
   { path: 'author', component: AuthorComponent },
   { path: 'books', component: FallbackComponent },
+  { path: 'social-networks', component: SocialNetworksComponent },
   { path: '**', component: NotFoundComponent },
 ];
