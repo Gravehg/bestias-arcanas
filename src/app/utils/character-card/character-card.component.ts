@@ -1,9 +1,9 @@
 import { Component, Input } from '@angular/core';
-
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-character-card',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './character-card.component.html',
   styleUrl: './character-card.component.css',
 })

@@ -1,0 +1,26 @@
+h1 {
+  font-size: 10rem;
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+section {
+  background-color: #1d1d1b;
+}
+
+.image-fluid {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.character-name {
+  background-color: #1a1a18;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: white;
+}
